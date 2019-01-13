@@ -1,0 +1,8 @@
+bison -d tema2.y
+flex tema2.l
+g++ lex.yy.c tema2.tab.c -o ex -lfl
+ bison -d tema2.y
+amalia@ubuntu:~/Desktop/tema$ flex tema2.l
+./ex < in.txt
+
+
